@@ -1,4 +1,4 @@
-FROM docker.n8n.io/n8nio/n8n:1.104.1
+FROM docker.n8n.io/n8nio/n8n:latest
 USER root
 RUN npm cache clean --force
 RUN apk add --no-cache ffmpeg curl
